@@ -1,19 +1,32 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+# -----------------------------------------------------------------------------
+# Original code:
+#   Copyright (c) 2025 Renata Wong
+#   Repository: https://github.com/renatawong/svm-kernels-as-quantum-propagators
+#
+# Revised version:
+#   Copyright (c) 2026 Nan-Hong Kuo
+#   Repository: https://github.com/kuonanhong/SVM-kernels-as-quantum-propagators
+#
+# This revised script is derived from the original experimental code associated
+# with the manuscript:
+#   "Support Vector Machine Kernels as Quantum Propagators"
+#
+# Major-revision additions include:
+#   [1] repeated cross-validation statistics
+#   [2] error bars and confidence intervals
+#   [3] explicit hyperparameter tuning
+#   [4] additional benchmark baselines
+#   [5] computational-cost reporting
+#
+# Licensed under the MIT License.
+# -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # Copyright (c) 2025 Renata Wong
 #
 # This code is supplementary material for the research paper:
 # "Support Vector Machine Kernels as Quantum Propagators"
-#
-# Revised experimental version for major revision:
-# Added
-#   [ADDED 1/5] Cross-validation statistics
-#   [ADDED 2/5] Error bars / confidence intervals
-#   [ADDED 3/5] Hyperparameter tuning details
-#   [ADDED 4/5] More rigorous benchmarking
-#   [ADDED 5/5] Cost analysis
 #
 # NOTE:
 # - The original physical data generation logic is preserved as much as possible.
