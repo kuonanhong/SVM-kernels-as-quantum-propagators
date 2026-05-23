@@ -1,6 +1,20 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+# -----------------------------------------------------------------------------
+# Original code:
+#   Copyright (c) 2025 Renata Wong
+#   Repository: https://github.com/renatawong/svm-kernels-as-quantum-propagators
+#
+# Revised version:
+#   Copyright (c) 2026 Nan-Hong Kuo
+#   Repository: https://github.com/kuonanhong/SVM-kernels-as-quantum-propagators
+#
+# This revised script is derived from the original experimental code associated
+# with the manuscript:
+#   "Support Vector Machine Kernels as Quantum Propagators"
+#
+# Licensed under the MIT License.
+# -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # Copyright (c) 2025 Renata Wong
 #
