@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+mp-api>=0.46.4
+emmet-core>=0.87.1
+pymatgen
+pymatgen-core>=2026.5.18
